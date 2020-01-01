@@ -92,7 +92,7 @@ def time_stats(df):
     start_time = time.time()
 
     # TO DO: display the most common month
-    
+
     most_common_month = df['month'].mode()[0]
     print("The most common month is: ", calendar.month_name[most_common_month])
 
@@ -115,8 +115,7 @@ def station_stats(df):
     start_time = time.time()
 
     # TO DO: display most commonly used start station
-    most_common_start_station = df['Start Station'].mode()[0]
-    print("The most commonly used start station: ", most_common_start_station)
+    print("The most commonly used start station: ", df['Start Station'].mode()[0])
 
     # TO DO: display most commonly used end station
     most_common_end_station = df['End Station'].mode()[0]
@@ -161,7 +160,7 @@ def user_stats(df):
     if 'Gender' in df.columns:
         gender = df['Gender'].value_counts()
         print('Count of gender: \n',gender)
-    
+
     # TO DO: Display earliest, most recent, and most common year of birth
     if 'Birth Year' in df.columns:
         birth_year = df['Birth Year']
@@ -182,7 +181,7 @@ def raw_data_check(raw_data, df):
     b=5
     while raw_data == 'yes':
         print(df[a:b])
-        
+
         while True:
             raw_data = input("Do you want to see 5 more rows? yes/no\n").lower()
             if raw_data == "no":
@@ -192,7 +191,7 @@ def raw_data_check(raw_data, df):
                 b+=5
                 print(df[a:b])
 
-    
+
 def main():
     while True:
         city, month, day = get_filters()
@@ -202,7 +201,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        
+
         # Show 5 lines of raw data?
         while True:
             raw_data = input("First, do you want to see some raw data? yes/no\n").lower()
