@@ -14,9 +14,9 @@ Data is provided by Motivate, a bike share system provider for many major cities
 System usage was compared between three large cities: Chicago, New York City, and Washington, DC.
 
 ### Files used
-chicago.csv
-new_york_city.csv
-washington.csv
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
 [MOTIVATECO](https://www.motivateco.com/)
