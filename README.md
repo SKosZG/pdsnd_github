@@ -20,3 +20,4 @@ System usage was compared between three large cities: Chicago, New York City, an
 
 ### Credits
 [MOTIVATECO](https://www.motivateco.com/)
+[Git-cheat-sheet](https://education.github.com/git-cheat-sheet-education.pdf)
