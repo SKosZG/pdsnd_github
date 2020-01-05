@@ -20,3 +20,4 @@ System usage was compared between three large cities: Chicago, New York City, an
 
 ### Credits
 [MOTIVATECO](https://www.motivateco.com/)
+[Udacity-styleguide](https://udacity.github.io/git-styleguide/)
