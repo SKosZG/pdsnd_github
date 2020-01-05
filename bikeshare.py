@@ -172,7 +172,7 @@ def user_stats(df):
         print('-'*40)
 
 
-# Show 5 rows of raw data
+# Show row data: 5 rows
 def raw_data_check(raw_data, df):
 
     a=0
