@@ -164,7 +164,7 @@ def user_stats(df):
     if 'Birth Year' in df.columns:
         birth_year = df['Birth Year']
         earliest_year = birth_year.min()
-        print("Earlist year:", earliest_year)
+        print("Earliest year:", earliest_year)
         most_recent_year = birth_year.max()
         print("Most recent year:", most_recent_year)
         most_common_year = birth_year.mode()[0]
